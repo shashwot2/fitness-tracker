@@ -1,0 +1,46 @@
+{
+  "goals": [
+    {
+      "id": "1",
+      "description": "Do 20 push-ups",
+      "category": "Strength Training",
+      "repetitions": "20 repetitions",
+      "achieved": false
+    },
+    {
+      "id": "cc59",
+      "description": "GET TONED",
+      "category": "Strength Training",
+      "repetitions": "30 mins",
+      "achieved": false
+    },
+    {
+      "id": "87db",
+      "description": "faf",
+      "category": "Strength Training",
+      "repetitions": "13412",
+      "achieved": false
+    },
+    {
+      "id": "4c45",
+      "description": "To get RIPPED",
+      "category": "Strength Training",
+      "repetitions": "30 mins",
+      "achieved": true
+    },
+    {
+      "id": "efb0",
+      "description": "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH",
+      "category": "Strength Training",
+      "repetitions": "123132",
+      "achieved": false
+    },
+    {
+      "id": "27ce",
+      "description": "gag",
+      "category": "Strength Training",
+      "repetitions": "1234",
+      "achieved": false
+    }
+  ]
+}

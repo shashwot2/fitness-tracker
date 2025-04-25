@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Goal Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="api.js" type="module" defer></script>
+  <script src="Model.js" type="module" defer></script>
+  <script src="View.js" type="module" defer></script>
+  <script src="Controller.js" type="module" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Fitness Goal Tracker</h1>
+
+    <div class="form-container">
+      <form id="goal-form">
+        <div class="form-group">
+          <label for="description">Fitness Goal:</label>
+          <input type="text" id="description" placeholder="Enter your fitness goal" required>
+        </div>
+
+        <div class="form-group">
+          <label for="category">Category:</label>
+          <select id="category" required>
+            <option value="">Select a category</option>
+            <option value="Strength Training">Strength Training</option>
+            <option value="Cardio">Cardio</option>
+            <option value="Flexibility">Flexibility</option>
+            <option value="Mobility">Mobility</option>
+            <option value="Yoga">Yoga</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="repetitions">Repetitions/Duration:</label>
+          <input type="text" id="repetitions" placeholder="E.g., 30 minutes, 20 reps" required>
+        </div>
+
+        <button type="submit" class="btn add-btn">Add Goal</button>
+      </form>
+    </div>
+
+    <div class="goals-container">
+      <ul id="goals-list">
+      </ul>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
