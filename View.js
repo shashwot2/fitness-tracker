@@ -8,7 +8,8 @@ export const View = (() => {
     const clearForm = () => {
         formEl.reset();
     };
-
+    /* I saw fitness goal and repetitons box were bigger in the supposed to look like image but
+    //  they looked a lot better when they were synced with the others*/
     const renderGoals = (goals) => {
         goalsListEl.innerHTML = "";
         // I was using innerHTML for everything but i realzied it wasn't secure so contrsucted it manually 
